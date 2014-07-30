@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LoginUIViewController.h
 //  Facebook Login
 //
 //  Created by hcfilippo on 14-7-30.
@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <FacebookSDK/FacebookSDK.h>
 
-@interface ViewController : UIViewController
+@interface LoginUIViewController : UIViewController <FBLoginViewDelegate>
 
 @end

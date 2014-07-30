@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CD10DD619889ACB00926C50 /* LoginUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CD10DD519889ACB00926C50 /* LoginUIViewController.xib */; };
 		429CC10D1988749D009A5C91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429CC10C1988749D009A5C91 /* Foundation.framework */; };
 		429CC10F1988749D009A5C91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429CC10E1988749D009A5C91 /* CoreGraphics.framework */; };
 		429CC1111988749D009A5C91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429CC1101988749D009A5C91 /* UIKit.framework */; };
 		429CC1171988749D009A5C91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 429CC1151988749D009A5C91 /* InfoPlist.strings */; };
 		429CC1191988749D009A5C91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 429CC1181988749D009A5C91 /* main.m */; };
 		429CC11D1988749D009A5C91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 429CC11C1988749D009A5C91 /* AppDelegate.m */; };
-		429CC1201988749D009A5C91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429CC11E1988749D009A5C91 /* Main.storyboard */; };
-		429CC1231988749D009A5C91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 429CC1221988749D009A5C91 /* ViewController.m */; };
+		429CC1231988749D009A5C91 /* LoginUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 429CC1221988749D009A5C91 /* LoginUIViewController.m */; };
 		429CC1251988749D009A5C91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 429CC1241988749D009A5C91 /* Images.xcassets */; };
 		429CC12C1988749D009A5C91 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429CC12B1988749D009A5C91 /* XCTest.framework */; };
 		429CC12D1988749D009A5C91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429CC10C1988749D009A5C91 /* Foundation.framework */; };
@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3CD10DD519889ACB00926C50 /* LoginUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginUIViewController.xib; sourceTree = "<group>"; };
 		429CC1091988749D009A5C91 /* Facebook Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Facebook Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		429CC10C1988749D009A5C91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		429CC10E1988749D009A5C91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,9 +46,8 @@
 		429CC11A1988749D009A5C91 /* Facebook Login-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Facebook Login-Prefix.pch"; sourceTree = "<group>"; };
 		429CC11B1988749D009A5C91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		429CC11C1988749D009A5C91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		429CC11F1988749D009A5C91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		429CC1211988749D009A5C91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		429CC1221988749D009A5C91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		429CC1211988749D009A5C91 /* LoginUIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginUIViewController.h; sourceTree = "<group>"; };
+		429CC1221988749D009A5C91 /* LoginUIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginUIViewController.m; sourceTree = "<group>"; };
 		429CC1241988749D009A5C91 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		429CC12A1988749D009A5C91 /* Facebook LoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Facebook LoginTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		429CC12B1988749D009A5C91 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -118,9 +118,9 @@
 			children = (
 				429CC11B1988749D009A5C91 /* AppDelegate.h */,
 				429CC11C1988749D009A5C91 /* AppDelegate.m */,
-				429CC11E1988749D009A5C91 /* Main.storyboard */,
-				429CC1211988749D009A5C91 /* ViewController.h */,
-				429CC1221988749D009A5C91 /* ViewController.m */,
+				429CC1211988749D009A5C91 /* LoginUIViewController.h */,
+				429CC1221988749D009A5C91 /* LoginUIViewController.m */,
+				3CD10DD519889ACB00926C50 /* LoginUIViewController.xib */,
 				429CC1241988749D009A5C91 /* Images.xcassets */,
 				429CC1131988749D009A5C91 /* Supporting Files */,
 			);
@@ -232,9 +232,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CD10DD619889ACB00926C50 /* LoginUIViewController.xib in Resources */,
 				429CC1251988749D009A5C91 /* Images.xcassets in Resources */,
 				429CC1171988749D009A5C91 /* InfoPlist.strings in Resources */,
-				429CC1201988749D009A5C91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				429CC1231988749D009A5C91 /* ViewController.m in Sources */,
+				429CC1231988749D009A5C91 /* LoginUIViewController.m in Sources */,
 				429CC11D1988749D009A5C91 /* AppDelegate.m in Sources */,
 				429CC1191988749D009A5C91 /* main.m in Sources */,
 			);
@@ -284,14 +284,6 @@
 				429CC1161988749D009A5C91 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		429CC11E1988749D009A5C91 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				429CC11F1988749D009A5C91 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		429CC1341988749D009A5C91 /* InfoPlist.strings */ = {
@@ -468,6 +460,7 @@
 				429CC13D1988749D009A5C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		429CC13E1988749D009A5C91 /* Build configuration list for PBXNativeTarget "Facebook LoginTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +469,7 @@
 				429CC1401988749D009A5C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
